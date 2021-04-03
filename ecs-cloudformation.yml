@@ -52,7 +52,7 @@ Resources:
       - Name: react-app
         Cpu: '50'
         Essential: 'true'
-        Image: public.ecr.aws/f1y4w6r6/craft-repo:latest
+        Image: 067455169741.dkr.ecr.ap-south-1.amazonaws.com/new-repo:latest
         Memory: '300'
         PortMappings:
         - ContainerPort: 3000
