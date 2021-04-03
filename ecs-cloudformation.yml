@@ -122,7 +122,7 @@ Resources:
   ContainerInstances:
     Type: AWS::AutoScaling::LaunchConfiguration
     Properties:
-      ImageId: ami-005425225a11a4777
+      ImageId: ami-0f40368f3b8795588
       SecurityGroups: [!Ref 'EcsSecurityGroup']
       InstanceType: t2.micro
       IamInstanceProfile: !Ref 'EC2InstanceProfile'
